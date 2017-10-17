@@ -289,7 +289,7 @@ footer p {
 }
 
 @media (max-width: 768px) {
- body { 
+ body, header nav, a, h2, .button { 
  width: 100%; 
   }
 }
@@ -333,7 +333,7 @@ margin-left: 180px;
 }
 
 @media (max-width:768px) {
-  p {margin-left: 33px;
+  p {margin-left: 1px;
   }
 }
 
@@ -355,3 +355,13 @@ margin-left: 180px;
  .copyright {margin-right: 87px;
   }
 } 
+
+@media (max-width: 768px) {
+  #sidebar {display: none;
+  }
+}
+
+@media (max-width: 768px) {
+.readmore {display:none;
+  }
+}
